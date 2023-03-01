@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="LD:war">
+    <output-path>$PROJECT_DIR$/landi/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>LD</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="LD.war">
+      <element id="artifact" artifact-name="LD:war exploded" />
+    </root>
+  </artifact>
+</component>
